@@ -1,0 +1,27 @@
+body {
+font-family: "Roboto", sans-serif;
+color: #2E2F42;
+background-color: #FFFFFF;
+}
+
+ul, 
+ol {
+list-style: none;}
+
+a {
+text-decoration: none;
+color: initial;}
+
+/*h2*/
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center; }
+
+.color-accent {
+color: #4D5AE5;}
+
+.hero-button {
+  background-color: #4D5AE5;}
