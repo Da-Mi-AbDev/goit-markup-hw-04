@@ -3,6 +3,10 @@ display: flex;
 gap: 24px;
 }
 
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .features-item-title {
 font-weight: 500;
 font-size: 20px;
@@ -18,17 +22,4 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-}
-
-.sr-only {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  margin: -1px;
 }

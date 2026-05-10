@@ -1,24 +1,27 @@
 .header {
 border-bottom: 1px solid #E7E9FC;
-max-width: 1440px;
-margin-left: auto;
+}
+
+.header-nav {
 margin-right: auto;
 }
 
 .header-container {
 display: flex;
 align-items: center;
-justify-content: space-between;
 } 
 
 .header-logo{
+padding: 24px 0;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;}
+color: #2E2F42;
+margin-right: 76px;
+}
 
 .header-nav-list {
 display: flex;
@@ -43,6 +46,7 @@ padding: 24px 0;
 .header-nav-link:focus {color: #404BBF;}
 
 .contacts-link {
+padding: 24px 0;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
