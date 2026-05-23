@@ -1,7 +1,8 @@
 body {
 font-family: "Roboto", sans-serif;
 color: #2E2F42;
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+}
 
 ul, 
 ol {
@@ -39,7 +40,6 @@ margin: 0 auto;
 .section {
 padding-top: 120px;
 padding-bottom: 120px;
-
 }
 
 /*h2*/
